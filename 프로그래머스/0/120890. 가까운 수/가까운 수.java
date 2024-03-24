@@ -1,8 +1,8 @@
-import java.util.Arrays;
+// import java.util.Arrays;
 
 class Solution {
     public int solution(int[] array, int n) {
-        Arrays.sort(array);
+        // Arrays.sort(array);
         int answer = array[0];
         int minus = n;
         
