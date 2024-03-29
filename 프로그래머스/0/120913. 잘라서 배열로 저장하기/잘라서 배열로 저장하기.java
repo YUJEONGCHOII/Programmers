@@ -9,8 +9,6 @@ class Solution {
         
         String[] answer = new String[arrLength];
         
-        int count = 0;
-        
         for(int i=0; i<arrLength; i++){
             if(my_str.length() >= n){
                 answer[i] = my_str.substring(0, n);
